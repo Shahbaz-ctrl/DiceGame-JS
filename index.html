@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Game</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+            background-color: antiquewhite;
+        }
+        #dice {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        .dice {
+            font-size: 100px;
+            margin: 0 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Dice Game</h1>
+    <div id="dice">
+        <div id="player1" class="dice">🎲</div>
+        <div id="player2" class="dice">🎲</div>
+    </div>
+    <button style="width: 100px;height: 40px;border-radius: 9px;background-color: aliceblue;" onclick="rollDice()">Roll Dice</button>
+    <h2 id="result">Click "Roll Dice" to start the game!</h2>
+<script src="app.js"></script>
+</body>
+</html>
